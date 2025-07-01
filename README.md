@@ -1,6 +1,6 @@
 # 🏡 Real Estate Landing Page — React + Vite
 
-This project is a modern real estate landing page inspired by [Blocksy Real Estate](https://startersites.io/blocksy/real-estate/). It is built with **React**, powered by **Vite**, styled using **Tailwind CSS**, and structured for scalability and performance.
+This project is a modern real estate landing page inspired by Blocksy Real Estate. It is built with **React**, powered by **Vite**, styled using **Tailwind CSS**, and structured for scalability and performance.
 
 ## ⚙️ Stack
 
