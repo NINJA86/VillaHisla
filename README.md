@@ -1,12 +1,49 @@
-# React + Vite
+# 🏡 Real Estate Landing Page — React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a modern real estate landing page inspired by [Blocksy Real Estate](https://startersites.io/blocksy/real-estate/). It is built with **React**, powered by **Vite**, styled using **Tailwind CSS**, and structured for scalability and performance.
 
-Currently, two official plugins are available:
+## ⚙️ Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ **React** — Component-based UI
+- ⚡ **Vite** — Fast dev/build tool
+- 🎨 **Tailwind CSS** — Utility-first styling
+- 🌍 **React Router DOM** — Page navigation
+- 🧠 **Context API** — State management for dynamic hotel/property data
+- 📦 **React Icons** — Icon system
+- 🧹 **ESLint + Prettier** — Clean code enforcement
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- ✅ Property cards with images, icons, and price overlays
+- ✅ Filter & search support (planned)
+- ✅ Modular and reusable components
+- ✅ Fake data context setup (ready for API integration)
+- ✅ Animation-ready (can be extended with Framer Motion)
+
+
+
+---
+
+## 🛠 Installation
+
+# 1. Clone the repository
+```
+git clone https://github.com/your-username/your-repo.git
+```
+
+# 2. Move into the project directory
+```
+cd your-repo
+```
+# 3. Install dependencies
+```
+npm install
+```
+# 4. Start the development server
+```
+npm run dev
+```
+
+Enjoy 🙌
