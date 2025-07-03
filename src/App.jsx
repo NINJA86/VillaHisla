@@ -1,16 +1,17 @@
-import * as React from 'react';
-import NavBar from './Components/NavBar/NavBar';
-import Home from './pages/Home';
-import Container from './components/Container/Container';
-import HotelProvider from './context/ContextHotel';
-import properties from './data';
+import { useState } from "react";
+import NavBar from "./components/NavBar/NavBar";
+import Home from "./pages/Home";
+import Container from "./components/Container/Container";
+import HotelProvider from "./context/ContextHotel";
+import properties from "./data";
 
 function App() {
-  const [hotelData, setHotelData] = React.useState(properties);
+  const [hotelData, setHotelData] = useState(properties);
+
   return (
-    <HotelProvider value={{ hotelData, setHotelData }} key={484}>
+    <HotelProvider value={{ hotelData, setHotelData }}>
       <header className="sticky z-50 top-0">
-        <Container classes="h-0">
+        <Container className="h-0">
           <NavBar />
         </Container>
       </header>

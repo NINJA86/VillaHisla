@@ -1,8 +1,7 @@
-import React from 'react';
 import { SiTicktick } from 'react-icons/si';
 
 function OptionsPlaceSuggestion({
-  children = `   Praesent sapien massa, convallis a pellentesque nec, egestas non nisi
+  children = `Praesent sapien massa, convallis a pellentesque nec, egestas non nisi
         sed porttitor lectus nibh.`,
 }) {
   return (

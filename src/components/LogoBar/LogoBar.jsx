@@ -1,5 +1,3 @@
-import React from 'react';
-
 function LogoBar() {
   return (
     <div className="flex items-center gap-2.5 pr-16">

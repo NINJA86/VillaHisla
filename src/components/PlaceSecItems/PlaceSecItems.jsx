@@ -1,26 +1,15 @@
-import React from 'react';
-import PricePlaceSec from '../PricePlaceSec/PricePlaceSec';
-import PlaceSecOption from '../PlaceSecOption/PlaceSecOption';
-import { formatNumber } from '../../func';
+import PricePlaceSec from "../PricePlaceSec/PricePlaceSec";
+import PlaceSecOption from "../PlaceSecOption/PlaceSecOption";
+import { formatNumber } from "../../func";
 
 function PlaceSecItems(items) {
-  console.log(items);
-  //   address: '7394 Duis sit amet accumsan justo';
-  //   bathrooms: 2;
-  //   bedrooms: 3;
-  //   id: 1;
-  //   img: 'img/hotel/smart-hotel-1.jpg';
-  //   pool: false;
-  //   price: 230000;
-  //   title: 'Warm Smart Apartment';
-  //   totalArea: 100;
   const icons = {
     bed: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
         style={{
-          width: '1.5rem',
-          height: '1.5rem',
+          width: "1.5rem",
+          height: "1.5rem",
           margin: 10,
         }}
         xmlSpace="preserve"
@@ -33,8 +22,8 @@ function PlaceSecItems(items) {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         style={{
-          width: '1.5rem',
-          height: '1.5rem',
+          width: "1.5rem",
+          height: "1.5rem",
           margin: 10,
         }}
         xmlSpace="preserve"
@@ -47,8 +36,8 @@ function PlaceSecItems(items) {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         style={{
-          width: '1.5rem',
-          height: '1.5rem',
+          width: "1.5rem",
+          height: "1.5rem",
           margin: 10,
         }}
         xmlSpace="preserve"
@@ -61,8 +50,8 @@ function PlaceSecItems(items) {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         style={{
-          width: '1.5rem',
-          height: '1.5rem',
+          width: "1.5rem",
+          height: "1.5rem",
           margin: 10,
         }}
         xmlSpace="preserve"
@@ -72,6 +61,7 @@ function PlaceSecItems(items) {
       </svg>
     ),
   };
+
   return (
     <div className="hover:scale-[1.03] transition-transform duration-300 ease-in-out cursor-pointer bg-white shadow-lg rounded-lg overflow-hidden">
       <div className="relative">
@@ -93,22 +83,22 @@ function PlaceSecItems(items) {
           <PlaceSecOption
             count={items.bedrooms}
             icon={icons.bed}
-            subject={'bedrooms'}
+            subject={"bedrooms"}
           />
           <PlaceSecOption
             count={items.bathrooms}
             icon={icons.bathRoom}
-            subject={'bathrooms'}
+            subject={"bathrooms"}
           />
           <PlaceSecOption
-            count={items.pool ? 1 : '-'}
+            count={items.pool ? 1 : "-"}
             icon={icons.pool}
-            subject={'pool'}
+            subject={"pool"}
           />
           <PlaceSecOption
             count={items.totalArea}
             icon={icons.meterage}
-            subject={'Total Area'}
+            subject={"Total Area"}
           />
         </div>
       </div>
