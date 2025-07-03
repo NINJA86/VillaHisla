@@ -1,13 +1,12 @@
 import React, { useContext, useState } from 'react';
 import { FaArrowRight } from 'react-icons/fa6';
 import PricePlaceSec from '../PricePlaceSec/PricePlaceSec';
-import { HotelData } from '../../context/ContextHotel';
 import PlaceSecOption from '../PlaceSecOption/PlaceSecOption';
 import PlaceSecItems from '../PlaceSecItems/PlaceSecItems';
+import useHotelData from '../../hooks/useHotelData';
 
 function PlaceSec() {
-  const hotelDataContext = useContext(HotelData);
-
+  const [hotelData, setHotelData] = useHotelData();
   return (
     <>
       <div className="flex items-center justify-between mb-8">
@@ -19,7 +18,7 @@ function PlaceSec() {
         </a>
       </div>
       <div className="flex items-center gap-6">
-        {hotelDataContext.hotelData.slice(2, 5).map((place) => (
+        {hotelData.slice(2, 5).map((place) => (
           <PlaceSecItems key={place.id} {...place} />
         ))}
       </div>

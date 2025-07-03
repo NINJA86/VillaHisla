@@ -5,6 +5,7 @@ import RightContent from '../components/RightContent/RightContent';
 import Statistics from '../components/Statistics/Statistics';
 import PlaceSuggestion from '../components/PlaceSuggestion/PlaceSuggestion';
 import PlaceSec from '../components/PlaceSec/PlaceSec';
+import CommentSec from '../components/CommentSec/CommentSec';
 
 function Home() {
   return (
@@ -26,9 +27,14 @@ function Home() {
           <PlaceSuggestion />
         </Container>
       </section>
-      <section className="bg-gray-100 h-[100rem] py-[120px]">
+      <section className="bg-gray-100 py-[120px]">
         <Container>
           <PlaceSec />
+        </Container>
+      </section>
+      <section className="bg-dark-green pt-[120px] pb-[100px]">
+        <Container>
+          <CommentSec />
         </Container>
       </section>
     </>
