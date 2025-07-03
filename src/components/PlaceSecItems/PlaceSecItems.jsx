@@ -1,4 +1,3 @@
-import React from "react";
 import PricePlaceSec from "../PricePlaceSec/PricePlaceSec";
 import PlaceSecOption from "../PlaceSecOption/PlaceSecOption";
 import { formatNumber } from "../../func";

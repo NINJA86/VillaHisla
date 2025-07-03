@@ -1,8 +1,6 @@
-import React, { useContext, useState } from 'react';
+import { useContext } from 'react';
 import { FaArrowRight } from 'react-icons/fa6';
-import PricePlaceSec from '../PricePlaceSec/PricePlaceSec';
 import { HotelData } from '../../context/ContextHotel';
-import PlaceSecOption from '../PlaceSecOption/PlaceSecOption';
 import PlaceSecItems from '../PlaceSecItems/PlaceSecItems';
 
 function PlaceSec() {

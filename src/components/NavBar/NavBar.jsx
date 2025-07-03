@@ -1,5 +1,4 @@
-import React from 'react';
-import { NavLink } from 'react-router'; // ✅ اصلاح این خط
+import { NavLink } from 'react-router';
 import LogoBar from '../LogoBar/LogoBar';
 import HamburgerBtn from '../HamburgerBtn/HamburgerBtn';
 import PhoneNum from '../PhoneNum/PhoneNum';
