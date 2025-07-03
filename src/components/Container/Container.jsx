@@ -1,6 +1,8 @@
+import { twMerge } from "tailwind-merge";
+
 function Container({ className = '', children }) {
   return (
-    <div className={`container mx-auto ${className}`}>
+    <div className={twMerge("container mx-auto", className)}>
       {children}
     </div>
   );
