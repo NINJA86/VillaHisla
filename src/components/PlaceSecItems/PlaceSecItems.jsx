@@ -4,16 +4,6 @@ import PlaceSecOption from '../PlaceSecOption/PlaceSecOption';
 import { formatNumber } from '../../func';
 
 function PlaceSecItems(items) {
-  console.log(items);
-  //   address: '7394 Duis sit amet accumsan justo';
-  //   bathrooms: 2;
-  //   bedrooms: 3;
-  //   id: 1;
-  //   img: 'img/hotel/smart-hotel-1.jpg';
-  //   pool: false;
-  //   price: 230000;
-  //   title: 'Warm Smart Apartment';
-  //   totalArea: 100;
   const icons = {
     bed: (
       <svg
