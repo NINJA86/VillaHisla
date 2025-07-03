@@ -1,8 +1,6 @@
-import React from 'react';
-
-function Container({ classes = '', children }) {
+function Container({ className = '', children }) {
   return (
-    <div style={{}} className={`container mx-auto ${classes}`}>
+    <div className={`container mx-auto ${className}`}>
       {children}
     </div>
   );
