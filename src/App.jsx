@@ -1,5 +1,5 @@
 import * as React from 'react';
-import NavBar from './Components/NavBar/NavBar';
+import NavBar from './components/NavBar/NavBar';
 import Home from './pages/Home';
 import Container from './components/Container/Container';
 import HotelProvider from './context/ContextHotel';
