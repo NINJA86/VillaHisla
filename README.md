@@ -35,7 +35,7 @@ git clone https://github.com/your-username/your-repo.git
 
 # 2. Move into the project directory
 ```
-cd your-repo
+cd VillaHisla
 ```
 # 3. Install dependencies
 ```
