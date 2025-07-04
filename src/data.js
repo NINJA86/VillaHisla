@@ -10,7 +10,6 @@ const properties = [
     totalArea: 100,
     img: 'img/hotel/smart-hotel-1.jpg',
   },
-
   {
     id: 2,
     title: 'Grand Vip Villa',

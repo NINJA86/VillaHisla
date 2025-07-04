@@ -1,5 +1,3 @@
-import React from 'react';
-
 function PicturePlaceSuggestion({ url = 'img/hotel/home-best-interiors.jpg' }) {
   return (
     <img

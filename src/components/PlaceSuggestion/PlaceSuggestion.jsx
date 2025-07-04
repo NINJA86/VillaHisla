@@ -1,8 +1,6 @@
-import React from 'react';
 import Button from '../Button/Button';
 import PicturePlaceSuggestion from '../PicturePlaceSuggestion/PicturePlaceSuggestion';
 import TitlePlaceSuggestion from '../TitlePlaceSuggestion/TitlePlaceSuggestion';
-import AttributePlaceSuggestion from '../AttributePlaceSuggestion/AttributePlaceSuggestion';
 import OptionsPlaceSuggestion from '../OptionsPlaceSuggestion/OptionsPlaceSuggestion';
 
 function PlaceSuggestion() {
@@ -10,7 +8,7 @@ function PlaceSuggestion() {
     <>
       <PicturePlaceSuggestion url="img/hotel/home-best-interiors.jpg" />
       <div className="basis-[36rem]">
-        <AttributePlaceSuggestion children="Best Interiors" />
+        <span className="attribute">Best Interior</span>
         <TitlePlaceSuggestion children="find your own price of paradise" />
         <p className="max-w-[29rem] text-lg text-text-green border-b pb-10 border-gray-200">
           Scelerisque dignissim in leo at magna donec mi metus ipsum luctus nam

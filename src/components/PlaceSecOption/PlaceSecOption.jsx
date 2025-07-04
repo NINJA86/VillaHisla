@@ -1,8 +1,6 @@
-import React from 'react';
-
 function PlaceSecOption({ icon, count, subject }) {
   return (
-    <div className="">
+    <div>
       <div className="flex items-center">
         <div className="">{icon}</div>
         <span className="font-black text-xl">{count}</span>

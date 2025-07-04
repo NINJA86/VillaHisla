@@ -1,14 +1,15 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState, useEffect } from 'react';
 import properties from '../../data';
+
 // remidn use context for catching data
 function SearchInput() {
-  const [showResults, setShowResults] = useState(false); //  show the result
-  const [query, setQuery] = useState(''); //  it trigger when the user type sth
+  const [showResults, setShowResults] = useState(false);
+  const [query, setQuery] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [result, setResult] = useState([]);
 
   useEffect(() => {
-    // if the user didn't type anything return and do nothing
+    // if the search bar was empty, do nothing
     if (query.trim() === '') {
       setIsLoading(false);
       return;
@@ -19,6 +20,7 @@ function SearchInput() {
       const searchResultArr = properties.filter((place) =>
         place.title.toLowerCase().includes(query.trim().toLowerCase())
       );
+
       setResult(searchResultArr);
       setShowResults(true);
       setIsLoading(false);
@@ -30,7 +32,6 @@ function SearchInput() {
   return (
     <div className="rounded relative w-[540px] bg-white">
       <input
-        // onBlur={() => setTimeout(() => setShowResults(false), 100)}
         onChange={(e) => setQuery(e.target.value)}
         value={query}
         className="outline-0 text-black px-[1.8rem] py-[1.4rem] w-72 placeholder:text-black placeholder:opacity-25"
@@ -59,8 +60,7 @@ function SearchInput() {
       </button>
 
       <ul
-        className={`
-          absolute left-0 top-full -my-2 mx-0 bg-white w-full shadow-md overflow-hidden rounded-b
+        className={`absolute left-0 top-full -my-2 mx-0 bg-white w-full shadow-md overflow-hidden rounded-b
           transition-all duration-300 origin-top 
           ${
             showResults && query
