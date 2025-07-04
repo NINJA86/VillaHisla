@@ -7,16 +7,34 @@ import properties from './data';
 
 function App() {
   const [hotelData, setHotelData] = React.useState(properties);
+  const [scrolled, setScrolled] = React.useState(false);
+
+  React.useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 20);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [scrolled]);
+
   return (
-    <HotelProvider value={{ hotelData, setHotelData }} key={484}>
-      <header className="sticky z-50 top-0">
-        <Container classes="h-0">
-          <NavBar />
+    <HotelProvider value={{ hotelData, setHotelData }}>
+      <header
+        className={`sticky z-50 h-0 top-0 transition-all duration-300 ${
+          scrolled
+            ? 'bg-white shadow h-32 text-black'
+            : 'bg-transparent text-white'
+        }`}
+      >
+        <Container classes="h-32">
+          <NavBar scrolled={scrolled} />
         </Container>
       </header>
+
       <main>
         <Home />
       </main>
+
       <footer></footer>
     </HotelProvider>
   );

@@ -22,7 +22,7 @@ function SearchInput() {
       setResult(searchResultArr);
       setShowResults(true);
       setIsLoading(false);
-    }, 1000); // شبیه‌سازی درخواست
+    }, 1000); // delay for some searching
 
     return () => clearTimeout(timeout);
   }, [query]);

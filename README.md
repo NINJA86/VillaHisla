@@ -22,26 +22,30 @@ This project is a modern real estate landing page inspired by Blocksy Real Estat
 - ✅ Fake data context setup (ready for API integration)
 - ✅ Animation-ready (can be extended with Framer Motion)
 
-
-
 ---
 
 ## 🛠 Installation
 
 # 1. Clone the repository
+
 ```
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/your-username/VillaHisla.git
 ```
 
 # 2. Move into the project directory
+
 ```
 cd VillaHisla
 ```
+
 # 3. Install dependencies
+
 ```
 npm install
 ```
+
 # 4. Start the development server
+
 ```
 npm run dev
 ```
