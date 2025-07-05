@@ -6,15 +6,14 @@ import Statistics from '../components/Statistics/Statistics';
 import PlaceSuggestion from '../components/PlaceSuggestion/PlaceSuggestion';
 import PlaceSec from '../components/PlaceSec/PlaceSec';
 import CommentSec from '../components/CommentSec/CommentSec';
+import SecondPlaceSuggestion from '../components/SecondPlaceSuggestion/SecondPlaceSuggestion';
 
 function Home() {
   return (
     <>
       <section className="relative bg-dark-green text-white font-bold overflow-hidden">
-        {/* فقط تصویر بک‌گراند absolute باشه */}
         <RightContent />
 
-        {/* محتوا در ساختار نرمال صفحه قرار بگیره */}
         <Container classes="flex items-center h-screen">
           <LeftContent />
         </Container>
@@ -36,6 +35,14 @@ function Home() {
         <Container>
           <CommentSec />
         </Container>
+      </section>
+      <section className="my-[120px]">
+        <Container>
+          <SecondPlaceSuggestion />
+        </Container>
+      </section>
+      <section>
+        <Container></Container>
       </section>
     </>
   );

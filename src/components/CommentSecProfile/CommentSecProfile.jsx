@@ -9,7 +9,7 @@ function CommentSecProfile({
   return (
     <div
       className="relative w-full border-b
-border-[#ffffff1a] py-20  rounded-lg overflow-hidden flex items-center"
+border-[#ffffff1a] py-20  rounded-lg overflow-hidden flex items-center gap-8"
     >
       <div
         style={{ backgroundImage: `url(${img})` }}

@@ -7,7 +7,7 @@ import CommentSecLogo from '../CommentSecLogo/CommentSecLogo';
 function CommentSec() {
   return (
     <div className="text-white">
-      <h2 className="capitalize  text-4xl mb-12">
+      <h2 className="capitalize  text-4xl font-bold mb-12">
         what our customer say about us
       </h2>
       <div

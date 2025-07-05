@@ -53,8 +53,8 @@ function NavBar({ scrolled }) {
         </ul>
       </div>
       <div className="flex gap-3.5">
-        <PhoneNum />
-        <HamburgerBtn openNav={() => {}} />
+        <PhoneNum scrolled={scrolled} />
+        <HamburgerBtn scrolled={scrolled} openNav={() => {}} />
       </div>
     </nav>
   );
