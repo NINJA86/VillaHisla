@@ -7,6 +7,7 @@ import PlaceSuggestion from '../components/PlaceSuggestion/PlaceSuggestion';
 import PlaceSec from '../components/PlaceSec/PlaceSec';
 import CommentSec from '../components/CommentSec/CommentSec';
 import SecondPlaceSuggestion from '../components/SecondPlaceSuggestion/SecondPlaceSuggestion';
+import Newsletter from '../components/Newsletter/Newsletter';
 
 function Home() {
   return (
@@ -41,8 +42,13 @@ function Home() {
           <SecondPlaceSuggestion />
         </Container>
       </section>
-      <section>
-        <Container></Container>
+      <section
+        className="bg-[url('img/bgs/bg-cover.jpg')]
+      bg-cover bg-center py-44"
+      >
+        <Container>
+          <Newsletter />
+        </Container>
       </section>
     </>
   );

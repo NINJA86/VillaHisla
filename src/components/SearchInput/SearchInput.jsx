@@ -34,7 +34,7 @@ function SearchInput() {
       <input
         onChange={(e) => setQuery(e.target.value)}
         value={query}
-        className="outline-0 text-black px-[1.8rem] py-[1.4rem] w-72 placeholder:text-black placeholder:opacity-25"
+        className=""
         type="text"
         placeholder="Search now..."
       />
