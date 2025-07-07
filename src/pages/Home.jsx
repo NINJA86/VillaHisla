@@ -9,6 +9,7 @@ import CommentSec from '../components/CommentSec/CommentSec';
 import SecondPlaceSuggestion from '../components/SecondPlaceSuggestion/SecondPlaceSuggestion';
 import Newsletter from '../components/Newsletter/Newsletter';
 import SubFooter from '../components/SubFooter/SubFooter';
+import HeroSectionWithScrollEffect from '../components/HeroSectionWithScrollEffect/HeroSectionWithScrollEffect';
 
 function Home() {
   return (
@@ -55,6 +56,9 @@ function Home() {
         <Container classes="flex items-center justify-between gap-[4rem]">
           <SubFooter />
         </Container>
+      </section>
+      <section>
+        <HeroSectionWithScrollEffect />
       </section>
     </>
   );

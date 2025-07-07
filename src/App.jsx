@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Container from './components/Container/Container';
 import HotelProvider from './context/ContextHotel';
 import properties from './data';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [hotelData, setHotelData] = React.useState(properties);
@@ -35,7 +36,7 @@ function App() {
         <Home />
       </main>
 
-      <footer></footer>
+      <Footer />
     </HotelProvider>
   );
 }
