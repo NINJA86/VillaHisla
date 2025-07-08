@@ -10,7 +10,6 @@ function Footer() {
   return (
     <footer className="bg-dark-green text-white pt-16 pb-6">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-10">
-        {/* Column 1: Logo & Address */}
         <div>
           <img
             src="https://startersites.io/blocksy/real-estate/wp-content/uploads/2023/05/logo-light.svg"
@@ -31,7 +30,6 @@ function Footer() {
           </p>
         </div>
 
-        {/* Column 2: Newsletter */}
         <div>
           <h3 className="text-lg font-semibold mb-3">
             Subscribe to newsletter
@@ -47,7 +45,6 @@ function Footer() {
           </form>
         </div>
 
-        {/* Column 3: Socials */}
         <div>
           <h3 className="text-lg font-semibold mb-3">Follow us</h3>
           <div className="flex gap-4 mt-2">
@@ -67,14 +64,13 @@ function Footer() {
         </div>
       </div>
 
-      {/* Copyright */}
       <div className="border-t border-gray-700 mt-10 pt-4 text-center text-sm text-gray-400">
-        © 2025 - WordPress Theme by{' '}
+        © 2025 - React Theme by{' '}
         <a
-          href="https://creativethemes.com"
+          href="https://github.com/ninja86"
           className="underline hover:text-white"
         >
-          CreativeThemes
+          CodingHisla
         </a>
       </div>
     </footer>
