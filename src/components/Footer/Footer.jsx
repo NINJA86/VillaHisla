@@ -13,7 +13,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-10">
         <div>
           <LogoBar />
-          <h3 className="text-lg font-semibold mb-2">
+          <h3 className="text-lg font-semibold mb-2 mt-7">
             45647 Hermiston Field Bruenberg, Guinea
           </h3>
           <p className="mb-2">

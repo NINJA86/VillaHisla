@@ -14,8 +14,8 @@ function NavBar({ scrolled }) {
 
   return (
     <nav className="flex items-center justify-between w-full px-4 h-32 m-0">
-      <div className="flex">
-        <LogoBar />
+      <div className="flex items-center">
+        <LogoBar scrolled={scrolled} />
         <ul className="flex items-center gap-12 ml-10">
           <li>
             <NavLink

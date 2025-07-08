@@ -5,6 +5,7 @@ import Container from './components/Container/Container';
 import HotelProvider from './context/ContextHotel';
 import properties from './data';
 import Footer from './components/Footer/Footer';
+import TopScrollBtn from './components/TopScrollBtn/TopScrollBtn';
 
 function App() {
   const [hotelData, setHotelData] = React.useState(properties);
@@ -34,6 +35,7 @@ function App() {
 
       <main>
         <Home />
+        <TopScrollBtn />
       </main>
 
       <Footer />
