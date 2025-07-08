@@ -5,17 +5,14 @@ import {
   FaLinkedinIn,
 } from 'react-icons/fa';
 import EmailInp from '../EmailInp/EmailInp';
+import LogoBar from '../LogoBar/LogoBar';
 
 function Footer() {
   return (
     <footer className="bg-dark-green text-white pt-16 pb-6">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-10">
         <div>
-          <img
-            src="https://startersites.io/blocksy/real-estate/wp-content/uploads/2023/05/logo-light.svg"
-            alt="Logo"
-            className="w-[150px] h-[28px] mb-4"
-          />
+          <LogoBar />
           <h3 className="text-lg font-semibold mb-2">
             45647 Hermiston Field Bruenberg, Guinea
           </h3>

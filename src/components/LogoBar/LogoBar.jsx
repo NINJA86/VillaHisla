@@ -1,9 +1,10 @@
 function LogoBar() {
   return (
-    <div className="flex items-center gap-2.5 pr-16">
-      <img className="size-10" src="vite.svg" alt="" />
-      <span>Real Estate</span>
-    </div>
+    <img
+      src="https://startersites.io/blocksy/real-estate/wp-content/uploads/2023/05/logo-light.svg"
+      alt="Logo"
+      className="w-[150px] h-[28px] mb-4"
+    />
   );
 }
 
