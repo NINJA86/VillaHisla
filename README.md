@@ -29,7 +29,7 @@ This project is a modern real estate landing page inspired by Blocksy Real Estat
 # 1. Clone the repository
 
 ```
-git clone https://github.com/your-username/VillaHisla.git
+git clone https://github.com/NINJA86/VillaHisla.git
 ```
 
 # 2. Move into the project directory
